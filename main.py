@@ -10,6 +10,7 @@ class MainWindow(Screen):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
 
+
         boxlayout = BoxLayout(orientation="vertical")
 
         button_trademarks = Button(
